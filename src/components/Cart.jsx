@@ -35,6 +35,12 @@ const Cart = () => {
               className="d-flex justify-content-between align-items-center mb-3"
             >
               <div>
+                <img
+                  className="card-img-top"
+                  src={item.image}
+                  alt={item.title}
+                  style={{ height: "100px", objectFit: "contain" }}
+                />
                 <h5>{item.title}</h5>
                 <p>$ {item.price.toFixed(2)}</p>
               </div>
