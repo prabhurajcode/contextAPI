@@ -9,7 +9,7 @@ const Header = () => {
     <nav className="navbar navbar-light bg-light fixed-top">
       <div className="container">
         <Link to="/" className="navbar-brand">
-          Book Shop
+          Guvi Store
         </Link>
         <Link to="/cart" className="btn btn-outline-success">
           Cart ({cart.reduce((acc, item) => acc + item.quantity, 0)})
